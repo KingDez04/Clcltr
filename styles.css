@@ -62,3 +62,48 @@ form .display input {
 #equal {
     width: 145px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: auto;
+    }
+
+    form .display input {
+        font-size: 35px;
+    }
+
+    .container form input {
+        width: 50px;
+        height: 45px;
+        font-size: 18px;
+        margin: 8px;
+    }
+
+    #equal {
+        width: 125px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    form .display input {
+        font-size: 25px;
+    }
+
+    .container form input {
+        width: 40px;
+        height: 35px;
+        font-size: 16px;
+        margin: 5px;
+    }
+
+    #equal {
+        width: 100px;
+    }
+}
